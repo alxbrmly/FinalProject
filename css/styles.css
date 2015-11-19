@@ -1,0 +1,142 @@
+html,
+body{
+margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+font-family: tahoma,sans-serif;
+}
+
+.full-page-module{
+height: 100%;
+}
+
+.welcome-module{
+	background-image: url('../img/statenisland1.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+
+.welcome-text{
+	text-align: center;
+	padding-top: 200px;
+	position: center;
+	color: #ffffff;
+}
+
+#column1 {
+	float: left;
+	clear: left;
+	margin-top: 0;
+	width: 100%;
+}
+
+h1{
+	font-size: 50px;
+}
+
+h2{
+	font-size: 30px;
+}
+.menu {
+    font-size: 16px;
+    font-weight: bold;
+	background-color: #FDBB30;
+	position: fixed;
+	height: 100px;
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+	display: inline; 
+	margin-left: 0px;
+	padding: 0px auto;
+}
+
+.menu ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+.menu li { 
+display: inline; 
+padding: 20px; 
+}
+
+
+a{
+	text-decoration: none;
+	color: #00703C;
+}
+a:hover{
+	color: #5190CD;
+	text-decoration: none;
+}
+
+.about-module{
+	margin: 0px;
+	padding: 0px;
+	height: 600px;
+	background-color: #adc6dd;
+}
+.about-text{
+	width: 100%;
+	padding-top: 0px;
+
+}
+
+#column2 {
+	float: left;
+	clear: right;
+	margin-top: 0;
+	width: 100%;
+}
+h3{
+	font-size: 26px;
+	margin-left: 50px;
+}
+p{ text-align: justify;
+	margin-left:75px;
+	width: 80%;
+	position: center;
+
+}
+
+h4{
+	font-size: 20px;
+}
+.footer-module{
+	background-color: orange;
+	height: auto;
+}
+
+.footer-list1{
+	float:left;
+	margin-left: 20%;
+}
+
+.footer-list2{
+	margin-top: 60px;
+		float:left;
+}
+
+#column3 {
+	float: left;
+	clear: left;
+	margin-top: 0;
+	width: 100%;
+}
+
+.go-module{
+background-image: url('../img/statenisland1.jpg');
+background-size: cover;
+background-position: top center;
+background-repeat: no-repeat;
+height: 600px;
+}
+
+.go-image{
+	float: left;
+}
+/*How many images per row? How many divs?/*/
