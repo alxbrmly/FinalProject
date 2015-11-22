@@ -171,11 +171,11 @@ height: 600px;
 
 .scroll{
     position: fixed;
-    bottom: 0;
-    left: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
     width: 150px;
-    height: 400px;
- 
+    height: 500px;
+    float: left;
   }
 
 ul
@@ -234,7 +234,7 @@ padding-top: 10px;
   height: 225px;
   width: 225px;
   float: left;
-  margin: 75px;
+  margin: 25px 75px;
 }
 
 .photo-module4{
