@@ -15,3 +15,13 @@ $('h6').animate({
     opacity: 0.40,
     width: "70%"
 }, 5000);
+
+$('h7').animate({
+    opacity: 0.60,
+    width: "70%"
+}, 5000);
+
+$('h8').animate({
+    opacity: 0.70,
+    width: "70%"
+}, 5000);
